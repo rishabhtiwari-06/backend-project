@@ -19,4 +19,4 @@ const uploadOnCloudinary = async (localFilePath) =>{
         fs.unlinkSync(localFilePath)  //If we find error in uploading then it will delete the corrupted file from the server
     }
 }
-
+export {uploadOnCloudinary}
